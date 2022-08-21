@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/font-awesome/css/fontawesome.min.css",
+              "src/assets/font-awesome/css/solid.min.css",
+              "src/assets/font-awesome/css/regular.min.css",
+              "src/assets/font-awesome/css/brands.min.css",
+              "src/assets/font-awesome/css/fontawesome.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -103,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
