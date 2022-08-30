@@ -3,12 +3,15 @@
     max-width: 40%; 
 
     @media (min-width: 577px) {
-        max-width: 65%;
+        max-width: 40%;
     }
-
     @media (max-width: 576px) {
         
         max-width: 75%;
+    }
+    
+    @media (min-width: 1200px) {
+        max-width: 45%;
     }
     
 }
